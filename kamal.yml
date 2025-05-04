@@ -13,6 +13,15 @@ registry:
 ssh:
     user: tobi
     port: 22
-    #
+  
+    
+
+env:
+    clear:
+          SSL_CERTIFICATE_PATH: /home/tobi/server.crt
+          SSL_CERTIFICATE_KEY_PATH: /home/tobi/server.key
+
+
+      #
 builder:
     multiarch: true  # wichtig! Damit Docker ein ARM-kompatibles Image baut
