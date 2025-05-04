@@ -18,8 +18,7 @@ env:
     SECRET_KEY_BASE: cf8d034a5eeedfedd1fd9c0ed537aa0cbfd63c0f0f6b43030646c70ef70181b77fc9ebb20a7c68aee90cc8f799175201e36a51a11ddfa964583c432729b93a70
 
   secret:
-    - name: TRAEFIK_SSL_CERT
-      value: |
+      TRAEFIK_SSL_CERT: |
         -----BEGIN CERTIFICATE-----
         MIIDnzCCAoegAwIBAgIUe8lzMZVpiAeWTEbPTsvez+y2hqowDQYJKoZIhvcNAQEL
         BQAwXzELMAkGA1UEBhMCREUxDzANBgNVBAgMBkJheWVybjESMBAGA1UEBwwJU3Ry
@@ -43,8 +42,7 @@ env:
         i4EVZjd4F0MHZHDeK6iaehwxew==
         -----END CERTIFICATE-----
 
-    - name: TRAEFIK_SSL_KEY
-      value: |
+      TRAEFIK_SSL_KEY: |
         -----BEGIN PRIVATE KEY-----
         MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCImi32uFU/ECQ
         53gUKisB8mvRAm1ixan1vfxRq5Ml0fICOpZ1REmCP86LXVJnuKYhra6QzOGgHi+I
