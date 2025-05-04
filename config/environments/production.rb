@@ -82,6 +82,7 @@ Rails.application.configure do
   config.hosts << "192.168.178.64"
   config.hosts << /[a-z0-9\-]+/ 
   
+  config.session_store :cookie_store, key: "_blog_session", secure: false 
   # Enable DNS rebinding protection and other `Host` header attacks.
   # config.hosts = [
   #   "example.com",     # Allow requests from example.com
