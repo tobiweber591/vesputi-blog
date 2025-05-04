@@ -18,13 +18,25 @@ env:
     SECRET_KEY_BASE: cf8d034a5eeedfedd1fd9c0ed537aa0cbfd63c0f0f6b43030646c70ef70181b77fc9ebb20a7c68aee90cc8f799175201e36a51a11ddfa964583c432729b93a70
 
 
+  files:
+    - source: ./certs/cert.pem
+      target: /etc/traefik/certs/cert.pem
+    - source: ./certs/key.pem
+      target: /etc/traefik/certs/key.pem
+
+
+
           # Credentials for your image host.
 registry:
     server: docker.io
     username: "tobiw91"  # Ein Platzhalterwert
     password: "*+eDvJGVz8c-idc"
 #
-#
+
+proxy:
+  ssl: true
+  host: 192.168.178.64  
+      #
   # job:
   #   hosts:
   #     - 192.168.0.1
