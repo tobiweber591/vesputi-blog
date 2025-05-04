@@ -28,9 +28,6 @@ registry:
     password: "*+eDvJGVz8c-idc"
 #
 
-proxy:
-  ssl: true
-  host: 192.168.178.64  
       #
   # job:
   #   hosts:
