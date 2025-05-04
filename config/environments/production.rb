@@ -83,6 +83,7 @@ Rails.application.configure do
   config.hosts << /[a-z0-9\-]+/ 
   
   config.session_store :cookie_store, key: "_blog_session", secure: false 
+  config.action_controller.allow_forgery_protection = false
   # Enable DNS rebinding protection and other `Host` header attacks.
   # config.hosts = [
   #   "example.com",     # Allow requests from example.com
