@@ -37,7 +37,7 @@ RUN apt-get update -qq && \
 COPY Gemfile Gemfile.lock ./
 RUN bundle install 
 RUN rm -rf ~/.bundle/ "${BUNDLE_PATH}"/ruby/*/cache "${BUNDLE_PATH}"/ruby/*/bundler/gems/*/.git 
-RUN bundle exec bootsnap precompile --gemfile
+#RUN bundle exec bootsnap precompile --gemfile
 
 
 COPY .force-rebuild /tmp/.force-rebuild
