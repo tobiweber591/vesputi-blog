@@ -38,35 +38,35 @@ env:
       oK7YyOQoBYeOw5AcmhMSUNT3hEu+YSbV3hYaxuGE8SbTQ7NuoNR8T07ZbGQXThds
       i4EVZjd4F0MHZHDeK6iaehwxew==
       -----END CERTIFICATE-----
-   TRAEFIK_SSL_KEY: |
-     -----BEGIN PRIVATE KEY-----
-     MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCImi32uFU/ECQ
-     53gUKisB8mvRAm1ixan1vfxRq5Ml0fICOpZ1REmCP86LXVJnuKYhra6QzOGgHi+I
-     OVzMOLzhLb/pwX4S8cZN84tRXdlc98RmB0SOhLInA6UtziHtqrGhYTUfPrgCo3Em
-     O9Uau2xI4DvP+VM/aH5tkrh7OWtM56pnhuFJ0GXEhva7pkAlLPUbVtS4A6cxR8SN
-     UrHxcntoUnvGu/1yaqGvk8Zu1Qof1Nfun/Q+p0n01WFNJuDXektQNWT1nOwEplg9
-     3CVrZqlziput04+IeFibj9fsyRturltXbOP/4zc6VqZbKt9ZbQl/Zhb/SXeIL7Zn
-     VOQ+VMo7AgMBAAECggEACdu1daCn0Kj+nl0iu+NoS7EDyJlW9K0U9GWxanRMBJ+k
-     qnhPK6VMFlEnK+yRQrMdvJgVRUUiL/9YapJ/I9+9t7GbDUPGIzAj4dF8QaWCZDYw
-     wv2bfaE/arvEp47QKkGAw7EsAWot7fReypI/QBxEY27/mpAOqimkQewxchB4Ym9K
-     iACxZu9Go0QGTKPA15hL1ZMRE+aYf3A63DiFBYg83knJjg0wJh8HVYZeJDwaPJvW
-     lJ8VgormFEoshmjhOQCeUZSzGNMsQbDkuLLaia6jc6N467mUtk9/U+xyw64ckHTz
-     lCmg/zezLAHW0IlH7zkDBiSJQFIZNquK3OG0N3OgAQKBgQDtlV+rrAsZg5wbKX0n
-     kCuKLQA8+0udjH6GOxW+NrHbUJHzCbWD3NILjtXKXmLf3vAsmXluc/qJlHgudDnh
-     SgU+BzhsCjoHfjaX+rP2CA1FwWupZDFaXoqIK/IJU/RaWiee5GiFOxSiMAUXpwwZ
-     cbk5Pli4akgxYmr/9+jQm7RQUQKBgQDRLtQGQqRA+yyVXbHntYiJ3TEobpcVfLrp
-     q9MCpgpJb9sB+0adBajIPToCoh6XHzH2X8qqlvN5DeIPHDPLtylpbHLEL9O7iR4G
-     6LplzvN0wFuEz5hT8P1hZ1NyR4htf3yUXRP5Kkq0wVFXIuHQU+/yx9r0XL9PUbXT
-     U2DqUMr6ywKBgQDnX6FcPqBQqKtOiIkqDm1Yk5q3yMNLG5fcgY4bQIjVXRHF7p6n
-     XFXyi5gJDQKdoy+jP5PSzYAgnEauduInVT7luYJpNUxuH6xrNewsnorOdB+1R64I
-     pCmlk6aTDv/ZPhN32lkv5umhScKr1jMiVG5eISml71t/PKmXvoctIXXpAQKBgQCO
-     ou/QlQCLjroH36u/4/kGiN1MRJyg+jw5ugBYff/ls3ATGdQ8ne9JGvbDdOiHA659
-     4TPAvs2mbeEHjKOE9ZA3YsufGz21Uvo2m9r+MO+xXLkLBsNH+bvM/zfXZQ+SGqxI
-     Pm+wJzZpqqhcUlzIQXQMiFq05clNvNnPD7u2CwFdoQKBgC0/E7ccnnrhERygw5D8
-     5Izd1xfTusHwmnPaAX5FhDQt5I8/y8t6e/wAg7BmDHKvjdc3+8rNFXo7+y6kdlu+
-     shXVwzhwVX5pZLr1li855olPQRB2xZ9QVYNLWeDTWtKuJH3qerAhrJyj2TYUf8+9
-     ajucWGMlimOFlQl0HwRE6GnL
-     -----END PRIVATE KEY-----
+    TRAEFIK_SSL_KEY: |
+      -----BEGIN PRIVATE KEY-----
+      MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCImi32uFU/ECQ
+      53gUKisB8mvRAm1ixan1vfxRq5Ml0fICOpZ1REmCP86LXVJnuKYhra6QzOGgHi+I
+      OVzMOLzhLb/pwX4S8cZN84tRXdlc98RmB0SOhLInA6UtziHtqrGhYTUfPrgCo3Em
+      O9Uau2xI4DvP+VM/aH5tkrh7OWtM56pnhuFJ0GXEhva7pkAlLPUbVtS4A6cxR8SN
+      UrHxcntoUnvGu/1yaqGvk8Zu1Qof1Nfun/Q+p0n01WFNJuDXektQNWT1nOwEplg9
+      3CVrZqlziput04+IeFibj9fsyRturltXbOP/4zc6VqZbKt9ZbQl/Zhb/SXeIL7Zn
+      VOQ+VMo7AgMBAAECggEACdu1daCn0Kj+nl0iu+NoS7EDyJlW9K0U9GWxanRMBJ+k
+      qnhPK6VMFlEnK+yRQrMdvJgVRUUiL/9YapJ/I9+9t7GbDUPGIzAj4dF8QaWCZDYw
+      wv2bfaE/arvEp47QKkGAw7EsAWot7fReypI/QBxEY27/mpAOqimkQewxchB4Ym9K
+      iACxZu9Go0QGTKPA15hL1ZMRE+aYf3A63DiFBYg83knJjg0wJh8HVYZeJDwaPJvW
+      lJ8VgormFEoshmjhOQCeUZSzGNMsQbDkuLLaia6jc6N467mUtk9/U+xyw64ckHTz
+      lCmg/zezLAHW0IlH7zkDBiSJQFIZNquK3OG0N3OgAQKBgQDtlV+rrAsZg5wbKX0n
+      kCuKLQA8+0udjH6GOxW+NrHbUJHzCbWD3NILjtXKXmLf3vAsmXluc/qJlHgudDnh
+      SgU+BzhsCjoHfjaX+rP2CA1FwWupZDFaXoqIK/IJU/RaWiee5GiFOxSiMAUXpwwZ
+      cbk5Pli4akgxYmr/9+jQm7RQUQKBgQDRLtQGQqRA+yyVXbHntYiJ3TEobpcVfLrp
+      q9MCpgpJb9sB+0adBajIPToCoh6XHzH2X8qqlvN5DeIPHDPLtylpbHLEL9O7iR4G
+      6LplzvN0wFuEz5hT8P1hZ1NyR4htf3yUXRP5Kkq0wVFXIuHQU+/yx9r0XL9PUbXT
+      U2DqUMr6ywKBgQDnX6FcPqBQqKtOiIkqDm1Yk5q3yMNLG5fcgY4bQIjVXRHF7p6n
+      XFXyi5gJDQKdoy+jP5PSzYAgnEauduInVT7luYJpNUxuH6xrNewsnorOdB+1R64I
+      pCmlk6aTDv/ZPhN32lkv5umhScKr1jMiVG5eISml71t/PKmXvoctIXXpAQKBgQCO
+      ou/QlQCLjroH36u/4/kGiN1MRJyg+jw5ugBYff/ls3ATGdQ8ne9JGvbDdOiHA659
+      4TPAvs2mbeEHjKOE9ZA3YsufGz21Uvo2m9r+MO+xXLkLBsNH+bvM/zfXZQ+SGqxI
+      Pm+wJzZpqqhcUlzIQXQMiFq05clNvNnPD7u2CwFdoQKBgC0/E7ccnnrhERygw5D8
+      5Izd1xfTusHwmnPaAX5FhDQt5I8/y8t6e/wAg7BmDHKvjdc3+8rNFXo7+y6kdlu+
+      shXVwzhwVX5pZLr1li855olPQRB2xZ9QVYNLWeDTWtKuJH3qerAhrJyj2TYUf8+9
+      ajucWGMlimOFlQl0HwRE6GnL
+      -----END PRIVATE KEY-----
 
           # Credentials for your image host.
 registry:
