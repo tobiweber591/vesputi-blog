@@ -39,12 +39,6 @@ ssh:
   # app_port: 3000
 
 # Credentials for your image host.
-  env:
-      TRAEFIK_CERT: /etc/traefik/certs/cert.pem
-      TRAEFIK_KEY: /etc/traefik/certs/key.pem
-
-          volumes:
-              - ./ssl:/etc/traefik/certs
 
 # Configure builder setup.
 builder:
