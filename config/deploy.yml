@@ -2,17 +2,22 @@
 service: my-app
 
 # Name of the container image.
-image: blog
+image: tobiw91/blog
 
 # Deploy to these servers.
 
 servers:
     web:
-          - 192.168.178.64
+      #  - 192.168.178.64
+        - localhost
+
+env:
+  SECRET_KEY_BASE: cf8d034a5eeedfedd1fd9c0ed537aa0cbfd63c0f0f6b43030646c70ef70181b77fc9ebb20a7c68aee90cc8f799175201e36a51a11ddfa964583c432729b93a70
 
 
-# Credentials for your image host.
+          # Credentials for your image host.
 registry:
+    server: docker.io
     username: "tobiw91"  # Ein Platzhalterwert
     password: "*+eDvJGVz8c-idc"
 #
@@ -37,7 +42,8 @@ ssh:
 
 # Configure builder setup.
 builder:
-  arch: arm64
+  #arch: arm64
+  arch: amd64
   # Pass in additional build args needed for your Dockerfile.
   # args:
   #   RUBY_VERSION: <%= ENV["RBENV_VERSION"] || ENV["rvm_ruby_string"] || "#{RUBY_ENGINE}-#{RUBY_ENGINE_VERSION}" %>
