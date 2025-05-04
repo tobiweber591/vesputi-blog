@@ -1,0 +1,18 @@
+service: blog        # Name deiner App
+image: blog          # Name des Docker-Images
+
+servers:
+    - tobi@192.168.178.64  # Dein Raspberry Pi – Username und IP
+
+registry:
+    # Wir verwenden keine externe Registry
+    username: ~
+    password: ~
+    #
+    # Optional: Wenn du SSH über Port 22 laufen hast, kannst du das so setzen
+ssh:
+    user: tobi
+    port: 22
+    #
+builder:
+    multiarch: true  # wichtig! Damit Docker ein ARM-kompatibles Image baut
